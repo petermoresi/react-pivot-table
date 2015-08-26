@@ -1,0 +1,59 @@
+#+TITLE: React-ES6 Starter Project
+
+This is a starter project for React programmers. The project uses:
+
+ 1. [[http://facebook.github.io/react/][React.js]]
+ 2. [[http://gaearon.github.io/react-hot-loader/][Babel Hot Loader]].
+ 3. [[http://webpack.github.io/docs/webpack-dev-server.html][Webpack dev server]]
+ 4. [[https://github.com/cucumber/cucumber-js][Cucumber-js to automate testing]]
+ 5. [[https://www.gnu.org/software/make/][GNU Make]] to simplify running useful CLI commands
+
+To get started clone the repo, delete the .git folder and start a new program.
+
+* Developer Workflow
+
+  The workflow uses [[http://gaearon.github.io/react-hot-loader/][babel-hot-loader]].
+
+** Getting Setup
+
+   This software needs to be installed before you can build the project.
+
+    1. Node.js / NPM
+
+   All other developer tools come from NPM. Install them with:
+
+   #+BEGIN_SRC sh
+     make install-prereqs
+   #+END_SRC
+   
+   Install development and runtime dependencies with:
+
+  #+BEGIN_SRC sh
+    npm install
+  #+END_SRC
+
+** Build Project
+
+  To run the development server:
+
+  #+BEGIN_SRC sh
+    make
+  #+END_SRC
+
+  To bundle the project:
+
+  #+BEGIN_SRC sh
+    make bundle
+  #+END_SRC
+
+  To run the tests:
+
+  #+BEGIN_SRC sh
+    make test
+  #+END_SRC
+  
+  To lint the code:
+
+  #+BEGIN_SRC sh
+    make lint
+  #+END_SRC
