@@ -1,6 +1,6 @@
 {
   "name": "react-pivot-table",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple pivot table written as React.js component.",
   "author": "Peter Moresi",
   "license": "MIT",

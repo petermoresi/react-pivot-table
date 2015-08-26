@@ -1,4 +1,4 @@
-#+TITLE: React Pivot Table
+# React Pivot Table
 
 A simple react component that implements a simple pivot.
 
