@@ -11,6 +11,10 @@ A simple react component that implements a simple pivot.
     {product: 'D', store: '1'},
     {product: 'A', store: '2'},
     {product: 'B', store: '2'},
-    {product: 'C', store: '2'}] }/>
+    {product: 'C', store: '2'}] Up}/>
+
+Install with npm.
+
+  npm install react-pivot-table
 
 Implemented in ES6 and tested with the babel compiler.
