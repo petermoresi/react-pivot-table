@@ -1,7 +1,7 @@
 {
-  "name": "react-es6-starter-kit",
+  "name": "react-pivot-table",
   "version": "0.1.0",
-  "description": "Minimal project layout for react and es6",
+  "description": "Simple pivot table written as React.js component.",
   "author": "Peter Moresi",
   "license": "MIT",
   "devDependencies": {
@@ -14,6 +14,8 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
+    "crossfilter": "^1.3.12",
+    "pivot-crossfilter": "^1.0.0",
     "react": "~0.13.0"
   }
 }
